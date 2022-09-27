@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Zhaoqi Zhang, you can also call me Roy</h1>
-<h3 align="center">A Ph.D. candidate in Computer Science at Tufts University, a gamer and indie-game developer</h3>
+<h3 align="center">A Ph.D. candidate in Computer Science at Tufts University and also a gamer</h3>
 
 - 🔭 I’m currently working on **Research projects in private repos,**
 
