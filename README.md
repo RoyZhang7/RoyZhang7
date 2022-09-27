@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Zhaoqi Zhang, you can also call me Roy</h1>
 <h3 align="center">A Ph.D. candidate in Computer Science at Tufts University, a gamer and indie-game developer</h3>
 
-- 🔭 I’m currently working on **Research projects in private repos. They're all distributed tracing related.**
+- 🔭 I’m currently working on **Research projects in private repos,**
 
 - 🌱 I’m currently learning **Rust, eBPF**
 
 - 👯 I’m looking to collaborate on [Pybloom-active](https://github.com/joseph-fox/python-bloomfilter)
+
+- 📝 I regularly write articles on [https://royzhang7.github.io/](https://royzhang7.github.io/)
 
 - 💬 Ask me about **Distributed tracing, computer networking, system**
 
