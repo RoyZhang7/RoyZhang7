@@ -5,8 +5,6 @@
 
 - 🌱 I’m currently learning **Rust, K8S, eBPF**
 
-- 👯 I’m looking to collaborate on [Pybloom-active](https://github.com/joseph-fox/python-bloomfilter)
-
 - 📝 I regularly write articles on [my personal blog & academic resume page](https://royzhang7.github.io/)
 
 - 💬 Ask me about **Distributed tracing, computer networking, system**
