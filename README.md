@@ -62,7 +62,7 @@
 
 ---
 
-<img src="github-metrics.svg" alt="Metrics" />
+<img src="/svg/github-metrics.svg" alt="Metrics" />
 
 <!--
 ---
