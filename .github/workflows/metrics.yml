@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: royzhang7
-          template: classic
+          template: terminal
           base: header, activity, community, repositories, metadata
           base_indepth: yes                      # counts private repo contributions
           config_octicon: yes
