@@ -27,16 +27,5 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Recent activity — with timeout to avoid flaky errors
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_filter: commit, pr, issue
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-
           plugin_followup: yes
-          plugin_followup_sections: repositories
-
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers, sponsors
+          plugin_followup_sections: user
