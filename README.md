@@ -31,32 +31,32 @@
   <kbd>
     <kbd>Systems / Backend</kbd>
     <br><br>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"/>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/>
-    <img width="50px" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="go"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/>
+    <img width="75px" src="https://www.vectorlogo.zone/logos/golang/golang-icon.svg" alt="go"/>
   </kbd>
   <kbd>
     <kbd>Infra / Cloud</kbd>
     <br><br>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker"/>
-    <img width="50px" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes"/>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis"/>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/memcached/memcached-original.svg" alt="memcached"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker"/>
+    <img width="75px" src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/memcached/memcached-original.svg" alt="memcached"/>
   </kbd>
   <kbd>
     <kbd>Observability</kbd>
     <br><br>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opentelemetry/opentelemetry-original.svg" alt="opentelemetry"/>
-    <img width="50px" src="https://www.vectorlogo.zone/logos/opentracingio/opentracingio-icon.svg" alt="opentracing"/>
-    <img width="50px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/ebpf-bee-transparent.png" alt="ebpf"/>
-    <img width="80px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/linux-perf.png" alt="linux perf"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opentelemetry/opentelemetry-original.svg" alt="opentelemetry"/>
+    <img width="75px" src="https://www.vectorlogo.zone/logos/opentracingio/opentracingio-icon.svg" alt="opentracing"/>
+    <img width="75px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/ebpf-bee-transparent.png" alt="ebpf"/>
+    <img width="100px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/linux-perf.png" alt="linux perf"/>
   </kbd>
   <kbd>
     <kbd>Tools</kbd>
     <br><br>
-    <img width="50px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
-    <img width="50px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"/>
-    <img width="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"/>
+    <img width="75px" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
+    <img width="75px" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"/>
+    <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux"/>
   </kbd>
 </p>
 
