@@ -48,8 +48,8 @@
     <br><br>
     <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opentelemetry/opentelemetry-original.svg" alt="opentelemetry"/>
     <img width="75px" src="https://www.vectorlogo.zone/logos/opentracingio/opentracingio-icon.svg" alt="opentracing"/>
-    <img width="75px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/ebpf-bee-transparent.png" alt="ebpf"/>
-    <img width="100px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/linux-perf.png" alt="linux perf"/>
+    <img width="75px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/images/ebpf-bee-transparent.png" alt="ebpf"/>
+    <img width="100px" src="https://raw.githubusercontent.com/royzhang7/royzhang7/main/images/linux-perf.png" alt="linux perf"/>
   </kbd>
   <kbd>
     <kbd>Tools</kbd>
