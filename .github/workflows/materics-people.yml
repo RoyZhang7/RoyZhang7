@@ -1,7 +1,7 @@
 name: Metrics - People
 on:
   schedule:
-    - cron: "0 0 1 */3 *"   # every 3 months on the 1st
+    - cron: "0 0 1 */3 *"   # every 3 months
   workflow_dispatch:
 
 jobs:
@@ -10,184 +10,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      # docc-lab repos
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: train-ticket-auto-query
-          filename: github-metrics-people-train-ticket-auto-query.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
 
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: dsb_hd_counter
-          filename: github-metrics-people-dsb-hd-counter.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: dsb_k8s_perf
-          filename: github-metrics-people-dsb-k8s-perf.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: dsb_k8s_cacti
-          filename: github-metrics-people-dsb-k8s-cacti.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: train-ticket-k8s-setup-cacti
-          filename: github-metrics-people-train-ticket-k8s-setup-cacti.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: dsb_k8s
-          filename: github-metrics-people-dsb-k8s.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: pythia
-          filename: github-metrics-people-pythia.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: cacti-dev
-          filename: github-metrics-people-cacti-dev.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: train-ticket-k8s-setup
-          filename: github-metrics-people-train-ticket-k8s-setup.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: DeathStarBench
-          filename: github-metrics-people-deathstarbench.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: blueprint-docc-mod
-          filename: github-metrics-people-blueprint-docc-mod.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: train-ticket
-          filename: github-metrics-people-train-ticket.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docc-lab
-          template: repository
-          repo: opentelemetry-go-docc-mod
-          filename: github-metrics-people-otel-go.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      # docclab-docs repos
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: docclab-docs
-          template: repository
-          repo: paper_perf_contention_ispass26
-          filename: github-metrics-people-ispass26.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      # Personal repos
+      # ── Before Tufts ──────────────────────────────────────────
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: royzhang7
           template: repository
           repo: kv-loadbalancer-nfv
-          filename: github-metrics-people-kv-loadbalancer.svg
+          filename: github-metrics-people-pre-kv-loadbalancer.svg
           base: ""
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers
@@ -199,7 +30,212 @@ jobs:
           user: royzhang7
           template: repository
           repo: DP-messaging-nfv
-          filename: github-metrics-people-dp-messaging.svg
+          filename: github-metrics-people-pre-dp-messaging.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: royzhang7
+          template: repository
+          repo: secretary-problem
+          filename: github-metrics-people-pre-secretary.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: F-Stack
+          template: repository
+          repo: f-stack
+          filename: github-metrics-people-pre-fstack.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      # ── After Tufts ───────────────────────────────────────────
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: pythia
+          filename: github-metrics-people-post-pythia.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: dsb_hd_counter
+          filename: github-metrics-people-post-dsb-hd-counter.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: dsb_k8s
+          filename: github-metrics-people-post-dsb-k8s.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: dsb_k8s_perf
+          filename: github-metrics-people-post-dsb-k8s-perf.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: dsb_k8s_cacti
+          filename: github-metrics-people-post-dsb-k8s-cacti.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: train-ticket-auto-query
+          filename: github-metrics-people-post-train-ticket-auto-query.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: train-ticket-k8s-setup
+          filename: github-metrics-people-post-train-ticket-k8s-setup.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: train-ticket-k8s-setup-cacti
+          filename: github-metrics-people-post-train-ticket-k8s-setup-cacti.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: train-ticket
+          filename: github-metrics-people-post-train-ticket.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: train-ticket-2
+          filename: github-metrics-people-post-train-ticket-2.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: cacti-dev
+          filename: github-metrics-people-post-cacti-dev.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: DeathStarBench
+          filename: github-metrics-people-post-deathstarbench.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: blueprint-docc-mod
+          filename: github-metrics-people-post-blueprint.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: opentelemetry-go-docc-mod
+          filename: github-metrics-people-post-otel-go.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docclab-docs
+          template: repository
+          repo: paper_perf_contention_ispass26
+          filename: github-metrics-people-post-ispass26.svg
           base: ""
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers
@@ -211,20 +247,7 @@ jobs:
           user: royzhang7
           template: repository
           repo: netlatency-measure-aws
-          filename: github-metrics-people-netlatency.svg
-          base: ""
-          plugin_people: yes
-          plugin_people_types: contributors, stargazers, watchers
-          plugin_people_size: 28
-
-      # Tufts course project repos
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Tufts-CS-118
-          template: repository
-          repo: Project2-Raft
-          filename: github-metrics-people-raft.svg
+          filename: github-metrics-people-post-netlatency.svg
           base: ""
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers
@@ -233,10 +256,58 @@ jobs:
       - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Tufts-CS-110
+          user: RS1999ent
           template: repository
-          repo: CPE-starter-code
-          filename: github-metrics-people-cpe.svg
+          repo: shared_tracing_docs
+          filename: github-metrics-people-post-shared-tracing.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docclab-docs
+          template: repository
+          repo: meeting_notes_vertical_tracing
+          filename: github-metrics-people-post-meeting-vertical.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docclab-docs
+          template: repository
+          repo: meeting_notes_perf_contention
+          filename: github-metrics-people-post-meeting-perf.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: royzhang7
+          template: repository
+          repo: vertical-tracing-cases
+          filename: github-metrics-people-post-vertical-tracing.svg
+          base: ""
+          plugin_people: yes
+          plugin_people_types: contributors, stargazers, watchers
+          plugin_people_size: 28
+
+      - uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: docc-lab
+          template: repository
+          repo: reading-group
+          filename: github-metrics-people-post-reading-group.svg
           base: ""
           plugin_people: yes
           plugin_people_types: contributors, stargazers, watchers
