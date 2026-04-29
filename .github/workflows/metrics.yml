@@ -21,7 +21,7 @@ jobs:
           base_indepth: yes                      # counts private repo contributions
           config_octicon: yes
           config_display: large
-          filename: github-metrics.svg
+          filename: svg/github-metrics.svg
 
           # Isometric commit calendar (shows private contributions in color)
           plugin_isocalendar: yes
