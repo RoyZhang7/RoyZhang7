@@ -64,6 +64,7 @@
 
 <img src="github-metrics.svg" alt="Metrics" />
 
+<!--
 ---
 
 <h3 align="center">👥 Collaborators — Before Tufts</h3>
@@ -100,3 +101,4 @@
   <img src="github-metrics-people-post-vertical-tracing.svg"/>
   <img src="github-metrics-people-post-reading-group.svg"/>
 </p>
+-->
