@@ -63,3 +63,40 @@
 ---
 
 <img src="github-metrics.svg" alt="Metrics" />
+
+---
+
+<h3 align="center">👥 Collaborators — Before Tufts</h3>
+<p align="center">
+  <img src="github-metrics-people-pre-kv-loadbalancer.svg"/>
+  <img src="github-metrics-people-pre-dp-messaging.svg"/>
+  <img src="github-metrics-people-pre-secretary.svg"/>
+  <img src="github-metrics-people-pre-fstack.svg"/>
+</p>
+
+---
+
+<h3 align="center">👥 Collaborators — At Tufts</h3>
+<p align="center">
+  <img src="github-metrics-people-post-pythia.svg"/>
+  <img src="github-metrics-people-post-dsb-hd-counter.svg"/>
+  <img src="github-metrics-people-post-dsb-k8s.svg"/>
+  <img src="github-metrics-people-post-dsb-k8s-perf.svg"/>
+  <img src="github-metrics-people-post-dsb-k8s-cacti.svg"/>
+  <img src="github-metrics-people-post-train-ticket-auto-query.svg"/>
+  <img src="github-metrics-people-post-train-ticket-k8s-setup.svg"/>
+  <img src="github-metrics-people-post-train-ticket-k8s-setup-cacti.svg"/>
+  <img src="github-metrics-people-post-train-ticket.svg"/>
+  <img src="github-metrics-people-post-train-ticket-2.svg"/>
+  <img src="github-metrics-people-post-cacti-dev.svg"/>
+  <img src="github-metrics-people-post-deathstarbench.svg"/>
+  <img src="github-metrics-people-post-blueprint.svg"/>
+  <img src="github-metrics-people-post-otel-go.svg"/>
+  <img src="github-metrics-people-post-ispass26.svg"/>
+  <img src="github-metrics-people-post-netlatency.svg"/>
+  <img src="github-metrics-people-post-shared-tracing.svg"/>
+  <img src="github-metrics-people-post-meeting-vertical.svg"/>
+  <img src="github-metrics-people-post-meeting-perf.svg"/>
+  <img src="github-metrics-people-post-vertical-tracing.svg"/>
+  <img src="github-metrics-people-post-reading-group.svg"/>
+</p>
