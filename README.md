@@ -29,7 +29,7 @@
 
 <p align="center">
   <kbd>
-    <kbd>Systems / Backend</kbd>
+    <kbd>Programming Languages</kbd>
     <br><br>
     <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"/>
     <img width="75px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/>
