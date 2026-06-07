@@ -20,7 +20,7 @@
 - ♟️ Establish and run largest competitive boardgame group in Boston, specialized in heavy euro boardgames
 - 🏋️ Used to train powerlifting + basketball
 - 🥊 Former semi-pro fighting game player
-  - Tekken 7 (Top 64 in 2020 NYC Tekken YearEnd Tournament)
+  - Tekken 7 (Top 128 in 2020 NYC Tekken YearEnd Tournament)
   - Tekken 6 (10+ Top3 in monthly tournament at hometown)
 
 </fieldset>
